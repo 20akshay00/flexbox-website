@@ -22,7 +22,7 @@
 }
 
 html {
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 body {
@@ -31,7 +31,6 @@ body {
     overflow: hidden;
 
     min-height: 100%;
-    transition: all 0.5s ease 0s;
 
     display: flex;
     flex-flow: row nowrap;
@@ -272,4 +271,5 @@ html::-webkit-scrollbar {
         font-size: clamp(60px, 0.077*100vw + 32.3px, 80px);
         line-height: clamp(60px, 0.077*100vw + 32.3px, 80px);
     }
+
 }
