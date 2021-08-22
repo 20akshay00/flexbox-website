@@ -273,8 +273,7 @@ html::-webkit-scrollbar {
     }
 
     html {
-        min-height: unset;
-        height: 100vh;
+        min-height: -webkit-fill-available;
     }
 
     body {
