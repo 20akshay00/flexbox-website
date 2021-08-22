@@ -31,6 +31,7 @@ body {
     overflow: hidden;
 
     min-height: 100vh;
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -264,5 +265,14 @@ html::-webkit-scrollbar {
         left: 50%;
         transform: translate(-50%, -50%);
         color: var(--white); 
+       }
+
+    #index h1{
+        font-size: clamp(60px, 0.077*100vw + 32.3px, 80px);
+        line-height: clamp(60px, 0.077*100vw + 32.3px, 80px);
+    }
+
+    body{
+        min-height: calc(100vh + 70px); 
     }
 }
