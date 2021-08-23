@@ -22,7 +22,7 @@
 }
 
 html {
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 body {
@@ -272,12 +272,11 @@ html::-webkit-scrollbar {
         line-height: clamp(60px, 0.077*100vw + 32.3px, 80px);
     }
 
-    html {
-        min-height: -webkit-fill-available;
+    body {
+        transition: height 100000s ease;
+        -webkit-transition: height 100000s ease;
+        -moz-transition: height 100000s ease;
+        -o-transition: height 100000s ease;
     }
 
-    body {
-        min-height: unset;
-        height: 100%;
-    }
 }
